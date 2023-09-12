@@ -1,3 +1,4 @@
+/* Global styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,7 +40,6 @@ input {
   border-radius: 8px;
   cursor: pointer;
 }
-/* unvisited link */
 
 .btn-outline {
   background-color: #fff;
@@ -61,4 +61,24 @@ p {
 
 .img-container img {
   height: 200px;
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  /* Adjust styles for smaller screens here */
+
+  .container {
+    padding: 1rem; /* Example: Reduce padding for smaller screens */
+  }
+
+  input {
+    font-size: 1rem; /* Example: Adjust input font size */
+  }
+
+  .btn {
+    font-size: 1rem; /* Example: Adjust button font size */
+    padding: 10px 0; /* Example: Adjust button padding */
+  }
+
+  /* Add more styles as needed for smaller screens */
 }
